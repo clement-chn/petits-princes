@@ -42,6 +42,10 @@ nav ul li a {
   padding: 1rem;
 }
 
+.big:hover {
+  font-size: 1.1rem;
+}
+
 .citation-shape {
   display: flex;
   flex-direction: column;
@@ -95,6 +99,7 @@ nav ul li a {
   nav ul {
     display: flex;
     flex-direction: row;
+    align-self: center;
   }
 
   nav ul li a {

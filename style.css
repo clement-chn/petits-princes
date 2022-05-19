@@ -2,19 +2,32 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  background-color: rgb(211, 244, 255);
 }
 
 nav {
   display: flex;
-  background-color: lightgrey;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  /* position: relative; */
+  background-color: rgb(133, 210, 255);
+  flex-direction: column;
+}
+
+nav ul {
+  align-self: center;
+  margin: 0;
+  padding: 16px 0 16px;
+}
+
+.ghost-item {
+  display: none;
 }
 
 .logo-size {
-  height: 7rem;
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  align-self: center;
+  top: 20px;
+  /* padding-top: 10px; */
 }
 
 nav ul li {
@@ -23,27 +36,92 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   padding: 1rem;
 }
 
-@media screen and (max-width: 1025px) {
-  nav {
-    display: flex;
-    flex-direction: column;
+.citation-shape {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 2rem;
+  align-items: center;
+}
+
+.citation {
+  padding: 2%;
+  text-align: center;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.child-pic {
+  border-radius: 50%;
+  height: 8rem;
+}
+
+/* Pour les smartphones vraiment petits */
+
+@media screen and (max-width: 340px) {
+  .special-ghost-item {
+    display: none;
   }
+}
+
+/* Tablettes */
+
+@media screen and (min-width: 768px) {
+  .child-pic {
+    height: 12rem;
+  }
+
+  .citation {
+    font-size: 1.3rem;
+  }
+}
+
+/* Ordinateurs */
+
+@media screen and (min-width: 992px) {
+  nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
   nav ul li a {
-    font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1rem;
   }
 
   .logo-size {
-    height: 10rem;
+    height: 12rem;
+    width: 12rem;
+    top: 50px;
   }
 
   .ghost-item {
-    display: none;
+    display: block;
+  }
+
+  .child-pic {
+    height: 8rem;
+  }
+
+  .citation {
+    font-size: 1.3rem;
+  }
+
+  .citation-shape {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
   }
 }

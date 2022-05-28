@@ -55,7 +55,7 @@ span {
   font-weight: bold;
 }
 .main {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: rgb(236, 218, 195);
   display: flex;
@@ -76,6 +76,23 @@ span {
 .description-article {
   font-weight: bold;
   color: rgb(0, 2, 94);
+  text-align: center;
+}
+
+.eventpic-size {
+  position: relative;
+  width: 360px;
+  height: 230px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+  background-color: rgb(133, 210, 255);
+  color: whitesmoke;
+  font-weight: bold;
   text-align: center;
 }
 

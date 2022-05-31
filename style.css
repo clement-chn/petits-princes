@@ -68,6 +68,7 @@ span {
   padding: 10px;
   background-color: white;
   margin-top: 5vh;
+  margin-bottom: 0;
 }
 
 .description-article {
@@ -75,7 +76,8 @@ span {
   font-weight: bold;
   text-align: center;
   background-color: white;
-  padding: 10px 10px 20px 10px;
+  /* padding: 10px 10px 20px 10px; padding direct sur le p au cas où*/
+  padding: 0px 10px 10px 10px;
   margin-top: 0;
   width: 90%;
 }
@@ -87,8 +89,10 @@ span {
 
 .eventpic-size {
   position: relative;
-  width: 360px;
-  height: 230px;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  margin-top: 5vh;
 }
 
 footer {
@@ -155,6 +159,10 @@ footer {
 
   .citation {
     font-size: 1.3rem;
+  }
+
+  .description-article {
+    margin-top: 2vh;
   }
 
   .citation-shape {

@@ -109,6 +109,50 @@ footer {
   text-align: center;
 }
 
+/* Page actualités */
+
+.implication-part {
+  max-width: 100vw;
+  height: 70vh;
+  background-color: rgb(255, 191, 131);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.implication-part > h2 {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  color: white;
+}
+
+.handshake {
+  width: 75px;
+  height: 75px;
+  filter: invert(100%);
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+}
+
+.title-link,
+.sub-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+.title-link:hover,
+.sub-link:hover {
+  text-decoration: underline;
+}
+
+.special-link {
+  color: darkblue;
+}
+
 /* Pour les smartphones vraiment petits */
 
 @media screen and (max-width: 340px) {

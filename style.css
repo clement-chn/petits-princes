@@ -134,8 +134,6 @@ footer {
 
 ul {
   list-style-type: none;
-  text-align: center;
-  align-items: center;
 }
 
 .title-link,
@@ -143,6 +141,7 @@ ul {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
 
 .title-link:hover,
 .sub-link:hover {

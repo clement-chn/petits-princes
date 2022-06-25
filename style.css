@@ -113,11 +113,12 @@ footer {
 
 .implication-part {
   max-width: 100vw;
-  height: 70vh;
+  min-height: 70vh;
   background-color: rgb(255, 191, 131);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .implication-part > h2 {
@@ -130,10 +131,22 @@ footer {
   width: 75px;
   height: 75px;
   filter: invert(100%);
+  margin-top: 25px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
+}
+
+.links {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.implication-part > ul > li,
+.margin-sub-link {
+  margin: 20px;
 }
 
 .title-link,
@@ -149,7 +162,7 @@ ul {
 }
 
 .special-link {
-  color: darkblue;
+  color: rgb(44, 44, 153);
 }
 
 /* Pour les smartphones vraiment petits */

@@ -325,4 +325,37 @@ ul {
   .grid-item-9 {
     margin-top: 17%;
   }
+
+  /* Actualités sur la partie ordinateur */
+
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .implication-part {
+    justify-content: unset;
+    min-height: 52vh;
+  }
+
+  .links-item1 {
+    margin-right: 5%;
+    border-style: none dashed none none;
+    border-color: deepskyblue;
+  }
+
+  .links-item2 {
+    border-style: none dashed;
+    border-color: deepskyblue;
+  }
+
+  .links-item3 {
+    margin-left: 5%;
+    border-style: none none none dashed;
+    border-color: deepskyblue;
+  }
+
+  .margin-sub-link {
+    margin: 10px;
+  }
 }

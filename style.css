@@ -177,12 +177,12 @@ ul {
 }
 
 .actualite-content {
-  padding: 30px;
-  background-color: whitesmoke;
+  padding: 0 30px 30px 30px;
 }
 
 .special-span {
-  text-decoration: underline;
+  color: rgb(6, 124, 197);
+  font-weight: bold;
 }
 
 .actualite-content > h1 {
@@ -212,6 +212,29 @@ ul {
 
   .main {
     padding: 45px 12% 140px;
+  }
+
+  .actualite-article {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .actualite-pic-big-container {
+    height: 100%;
+    width: 50vw;
+  }
+
+  .actualite-pic-container {
+    max-width: 100%;
+  }
+
+  .actualite-pic {
+    max-width: 65vh;
+  }
+
+  .actualite-content {
+    width: 50vw;
   }
 }
 
@@ -387,5 +410,14 @@ ul {
 
   .margin-sub-link {
     margin: 10px;
+  }
+
+  .actualite-pic-container {
+    margin-left: 20%;
+  }
+
+  .actualite-content {
+    width: 40vw;
+    margin-right: 2.5%;
   }
 }

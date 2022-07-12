@@ -11,6 +11,10 @@ nav {
   flex-direction: column;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 nav ul {
   align-self: center;
   margin: 0;
@@ -217,7 +221,6 @@ ul {
   .actualite-article {
     display: flex;
     flex-direction: row;
-    width: 100%;
   }
 
   .actualite-pic-big-container {
@@ -412,12 +415,23 @@ ul {
     margin: 10px;
   }
 
-  .actualite-pic-container {
-    margin-left: 20%;
+  .actualite-article {
+    width: auto;
+  }
+
+  .actualite-pic-big-container {
+    padding: 0;
+    margin-left: 8%;
+    margin-right: 0;
+    width: auto;
+  }
+
+  .actualite-pic {
+    min-width: 20vw;
+    min-height: 10vh;
   }
 
   .actualite-content {
     width: 40vw;
-    margin-right: 2.5%;
   }
 }
